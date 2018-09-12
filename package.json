@@ -1,0 +1,20 @@
+{
+  "name": "start-eos",
+  "version": "1.0.0",
+  "description": "script to quick start eos engine",
+  "scripts": {
+    "build": "chmod +x ./build.sh && ./build.sh",
+    "start": "chmod +x ./run.sh && ./run.sh",
+    "stop": "docker stop nodeosd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanyinghao/eos.git"
+  },
+  "author": "YINGHAO FAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fanyinghao/eos/issues"
+  },
+  "homepage": "https://github.com/fanyinghao/eos#readme"
+}
