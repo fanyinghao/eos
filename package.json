@@ -5,7 +5,9 @@
   "scripts": {
     "build": "chmod +x ./build.sh && ./build.sh",
     "start": "chmod +x ./run.sh && ./run.sh",
-    "stop": "docker stop nodeosd"
+    "stop": "docker stop nodeosd",
+    "dev:start": "chmod +x ./run.dev.sh && ./run.dev.sh",
+    "dev:stop": "docker stop nodeosd-dev"
   },
   "repository": {
     "type": "git",
